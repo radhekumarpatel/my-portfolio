@@ -4,8 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Radhe Patel - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background: url('https://t3.ftcdn.net/jpg/04/37/54/90/360_F_437549071_7uQvtqTIgd50l2r0OZ1g0zJnLwnzJmIG.jpg') no-repeat center center;
+            background-size: cover;
+            color: black;
+            padding: 40px 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2rem;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            flex: 1;
+            padding: 40px 0;
+            text-align: center;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        section img {
+            width: 150px;
+            border-radius: 50%;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #4CAF50;
+        }
+        section p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+        section ul {
+            text-align: left;
+            margin: 0 auto;
+            display: inline-block;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+        section ul li {
+            margin-bottom: 10px;
+        }
+        footer {
+            background: url('https://t3.ftcdn.net/jpg/04/37/54/90/360_F_437549071_7uQvtqTIgd50l2r0OZ1g0zJnLwnzJmIG.jpg') no-repeat center center;
+            background-size: cover;
+            color: black;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: auto;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -24,18 +113,25 @@
         </div>
     </header>
     <main>
-        <section>
-            <div class="container">
+        <div class="container">
+            <section>
                 <h2>Welcome to My Portfolio</h2>
                 <p>Hello! I'm Radhe Patel, a dynamic IT Technician with a strong foundation in computer systems, network administration, and technical support. I have a keen interest in advancing into cybersecurity roles and am eager to apply my skills to enhance organizational security posture and drive operational excellence.</p>
-            </div>
-        </section>
+                <ul>
+                    <li>Proficient in managing and troubleshooting hardware and software issues</li>
+                    <li>Extensive experience in providing exceptional technical support to end-users</li>
+                    <li>Skilled in VMware vSphere, AWS, Active Directory, Python, Shell Scripting, Git, CI/CD Pipelines, Networking (TCP/IP, DNS, DHCP, VPNs, Cisco Networking, Firewalls), Windows Server, Linux Systems, MySQL, and Office 365</li>
+                    <li>Excellent technical writing and automation skills</li>
+                    <li>Passionate about continuous learning and professional development</li>
+                </ul>
+                <p>I am excited about the opportunity to contribute to a progressive IT helpdesk team and to advance into cybersecurity roles. I am committed to staying updated with the latest industry trends and technologies.</p>
+            </section>
+        </div>
     </main>
     <footer>
         <div class="container">
             <p>&copy; 2024 Radhe Patel</p>
         </div>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>

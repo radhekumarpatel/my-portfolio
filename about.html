@@ -4,8 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About - Radhe Patel</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background: url('https://t3.ftcdn.net/jpg/04/37/54/90/360_F_437549071_7uQvtqTIgd50l2r0OZ1g0zJnLwnzJmIG.jpg') no-repeat center center;
+            background-size: cover;
+            color: black;
+            padding: 40px 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2rem;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            flex: 1;
+            padding: 40px 0;
+            text-align: center;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        section img {
+            width: 150px;
+            border-radius: 50%;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #4CAF50;
+        }
+        section p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+        section ul {
+            text-align: left;
+            margin: 0 auto;
+            display: inline-block;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+        section ul li {
+            margin-bottom: 10px;
+        }
+        footer {
+            background: url('https://t3.ftcdn.net/jpg/04/37/54/90/360_F_437549071_7uQvtqTIgd50l2r0OZ1g0zJnLwnzJmIG.jpg') no-repeat center center;
+            background-size: cover;
+            color: black;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: auto;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -23,18 +112,26 @@
         </div>
     </header>
     <main>
-        <section id="about">
-            <div class="container">
+        <div class="container">
+            <section id="about">
                 <h2>About Me</h2>
                 <p>Hello! I'm Radhe Patel, a dynamic IT Technician with a strong foundation in computer systems, network administration, and technical support. I have a keen interest in advancing into cybersecurity roles and am eager to apply my skills to enhance organizational security posture and drive operational excellence.</p>
-            </div>
-        </section>
+                <p>I hold a Diploma in Computer System Technician - IT Infrastructure and Service with Co-Op from Conestoga College, Waterloo, with an expected graduation in August 2024. I also hold certifications in Basics of Computer Programming & SQL and Computer Hardware and Networking from Gujarat, India.</p>
+                <p>My work experience includes roles as an IT Specialist at Airboss of America Corp. during my Co-Op, and as an IT Technician / Help Desk at Durva Tech in Khambhat, India. These roles have equipped me with valuable skills in network administration, technical troubleshooting, and IT support.</p>
+                <ul>
+                    <li>Skilled in managing and troubleshooting hardware and software issues</li>
+                    <li>Proficient in VMware vSphere, AWS, Active Directory, and more</li>
+                    <li>Experienced in providing exceptional technical support to end-users</li>
+                    <li>Excellent technical writing and automation skills</li>
+                    <li>Passionate about continuous learning and professional development</li>
+                </ul>
+            </section>
+        </div>
     </main>
     <footer>
         <div class="container">
             <p>&copy; 2024 Radhe Patel</p>
         </div>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
